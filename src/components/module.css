@@ -1,0 +1,90 @@
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the color and opacity (last value) as needed */
+  z-index: 1; /* Place the overlay above the image */
+}
+.background-container1 {
+  width: 800px;
+  height: 350px;
+  position: relative;
+}
+.background-overlay1 {
+  position: absolute;
+  background-color: rgba(96, 132, 176, 0.8);
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.background-image1 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.menu {
+  list-style: none;
+}
+.menu li {
+  margin: 0 20px;
+  font-weight: 400;
+}
+.menu li:hover {
+  color: white;
+  cursor: pointer;
+}
+.scrolled {
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.whiteul li:hover {
+  color: rgb(33, 33, 200);
+}
+.openedul li {
+  margin: 28px 50px;
+  color: black;
+}
+.aboutSection {
+  height: 90vh;
+}
+.project {
+  height: 50vh;
+}
+.contact {
+  height: 90vh;
+}
+@media screen and (max-width: 768px) {
+  .aboutSection {
+    height: auto;
+  }
+  .project {
+    height: auto;
+  }
+
+  .contact {
+    height: auto;
+  }
+}
