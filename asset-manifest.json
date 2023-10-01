@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/skill-wave/static/css/main.67618c2b.css",
+    "main.js": "/skill-wave/static/js/main.3e8ee67b.js",
+    "static/media/about.jpg": "/skill-wave/static/media/about.6c4d91ad0983edbf6c19.jpg",
+    "static/media/bg.jpg": "/skill-wave/static/media/bg.30a9badae03616abaf97.jpg",
+    "static/media/project1.png": "/skill-wave/static/media/project1.2416a364eb7935f2509b.png",
+    "static/media/project3.jpg": "/skill-wave/static/media/project3.8c78daeebbf28b4de3a7.jpg",
+    "index.html": "/skill-wave/index.html",
+    "main.67618c2b.css.map": "/skill-wave/static/css/main.67618c2b.css.map",
+    "main.3e8ee67b.js.map": "/skill-wave/static/js/main.3e8ee67b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67618c2b.css",
+    "static/js/main.3e8ee67b.js"
+  ]
+}
